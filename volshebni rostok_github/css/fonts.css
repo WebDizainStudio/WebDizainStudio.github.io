@@ -9,7 +9,9 @@
 
 @font-face {
   font-family: 'CheshirskiyCat';
-  src: url('../font/Cheshirskiy Cat.ttf') format('truetype');
+  src: url("../font/badscript/Badscriptregular.woff2") format("woff2"),
+     url("../font/badscript/Badscriptregular.woff") format("woff"),
+     url("../font/Cheshirskiy Cat.ttf) format("truetype");  
   font-style: normal;
   font-weight: normal;
 
