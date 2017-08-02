@@ -1,0 +1,104 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+.list_left_buttom, .list_right_buttom {
+    margin-top: 800px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+ .citation p {
+font-size: 30px;
+}
+.video_text {
+	font-size: 30px;
+}
+
+.list_left_buttom, .list_right_buttom {
+    margin-top: 1081px;
+    }
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.globus {
+width: 70%;
+}
+
+  .img_list_teft, .img_right_teft {
+  	display: none;
+}
+
+.list_left_buttom, .list_right_buttom {
+	margin-top: 70px;
+}
+.profi_left {
+	width: 20%;
+}
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.citation p span,  .citation p {
+font-size: 20px;
+}  
+ header h1,  .text_2 {
+ font-size: 40px;
+}
+ .img_logo {
+    max-width: 300px;	
+  }
+
+  .video_wraper {
+  	height: 400px;
+  }
+  .about_h2 {
+  	font-size: 40px;
+  }
+  section h2  {
+	font-size: 40px;
+}
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+.citation p, .citation p span {
+font-size: 15px;
+}  
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
