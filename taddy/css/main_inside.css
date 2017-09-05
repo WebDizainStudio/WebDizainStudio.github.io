@@ -1,0 +1,46 @@
+.inside {
+	margin-top: 50px;
+	margin-bottom: 150px;
+}
+
+.inside img {
+	width: 50%;
+	margin-top: 32px;
+	float: left;
+	margin-right: 30px;
+}
+
+.inside h3 {
+	text-align: center;
+	font-size: 25px;
+}
+
+.inside .wrapper_inside {
+	padding-top: 20px;
+}
+
+.inside_text {
+	margin-top: 25px;
+	text-align: center;
+}
+
+.inside_dop {
+	margin-top: 68px;
+	background-color: #f4f9fa;
+}
+
+.inside_dop a {
+	line-height: 20px;
+	display: inline-block;
+	color: #523d32;
+}
+
+.inside_dop p {
+	margin-bottom: 10px;
+}
+
+.inside h4 {
+	padding-bottom: 15px;
+	padding-top: 10px;
+	text-align: center;
+}

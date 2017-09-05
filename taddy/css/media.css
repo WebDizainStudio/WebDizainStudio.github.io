@@ -1,0 +1,383 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1920px) {
+.forma {
+min-height: 387px;
+}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+.top_mnu a {
+font-size: 18px;
+
+}
+
+body .top_mnu {
+	padding-left: 0;
+}
+
+.logo_top img {
+	width: 90%;
+}
+
+.logo_top {
+	margin-left: 10%;
+}
+footer .contacts {
+    padding-top: 83px;
+}
+
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	header {
+	min-height: 250px;
+	
+}
+.phone {
+	font-size: 20px;
+}
+
+
+.top_header .fa-instagram {
+	font-size: 28px;
+	padding-top: 28px;
+}
+
+.top_header .fa-vk {
+	font-size: 32px;
+	padding-top: 24px;
+}
+
+.top_mnu a {
+font-size: 16px;
+
+}
+
+body .top_mnu_media {
+	padding-left: 80px;
+}
+
+ul {
+padding-left: 0;
+
+}
+
+.top_mnu li{
+	padding-left: 10px;
+}
+
+.logo_top img {
+	width: 80%;
+}
+
+.logo_top {
+	margin-top: 0px;
+ }
+
+ .citation p {
+ 	font-size: 24px;
+ }
+
+  .citation {
+  	background-size: 95%;
+  }
+
+  h2 {
+  	font-size: 30px;
+  }
+
+  .courses p a {
+  	font-size: 17px;
+  }
+
+  .forma_text {
+  	font-size: 35px;
+  }
+
+ .r-slide-1 .r-slide-left, .r-slide-2 .r-slide-right {
+ 	float: none;
+ 	margin: 0 auto;
+ }
+
+ .r-slide-1 .r-slide-right  {
+ 	margin-top: 20px;
+ 	width: 100%;
+ 	text-align: center;
+ }
+
+  .r-slide-1 .r-slide-right p {
+  	width: 85%;
+  	padding: 75px 10px 10px 190px;
+  }
+
+  .r-slide-2 .r-slide-left {
+
+    background-position: -573px 0;
+
+   }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+
+.phone {
+	font-size: 18px;
+	text-align: center;
+	margin-top: -24px;
+}
+
+
+.top_header .fa-instagram {
+	font-size: 18px;
+	padding-top: 0px;
+	padding-left: 6px;
+	
+}
+
+.top_header .fa-vk {
+	font-size: 20px;
+	padding-top: 0px;
+	padding-left: 84px;
+	
+}
+
+.top_header .fa  {
+	float: none;
+	
+}
+
+.top_header .icon {
+	text-align: center;
+} 
+
+.top_mnu a {
+	font-size: 15px;
+}
+
+.logo_top img {
+	width: 60%;
+	text-align: center;
+}
+
+.logo_top {
+	margin-top: 24px;
+	margin-left: 33%;
+	text-align: center;
+
+
+ }
+
+ .top_header {
+ 	min-height: 70px;
+ }
+
+  .citation p {
+ 	font-size: 21px;
+ }
+
+  h2 {
+  	font-size: 30px;
+  }
+.table_adaptiv {
+	display: inline-block;
+	width: 100%;
+	line-height: 
+}
+
+.tab {
+    line-height: 45px;
+    }
+
+table {
+	display: none;
+}
+
+
+
+} 
+
+@media only screen and (max-width : 668px) {
+.top_mnu a {
+	font-size: 13px;
+}
+.top_mnu li{
+	padding-left: 5px;
+}
+
+	}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 600px) {
+.toggle_mnu  {
+	display: inline-block;
+	float: left;
+}
+
+.top_mnu {
+	display: none;
+}
+
+.menu_600 {
+	float: left;
+	margin-left: 30px;
+	text-decoration: none;
+}
+
+.menu_600 a {
+	font-size: 14px;
+}
+
+.phone {
+	margin-top: -75px;
+}
+
+.logo_top {
+	margin-top: 20px;
+	margin-left: 29%;
+
+ }
+
+  .citation  {
+ background-image: none;
+ padding: 64px;
+ }
+
+  h2 {
+  	font-size: 28px;
+  }
+
+  .courses p a {
+  	font-size: 15px;
+  }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.logo_top {
+	margin-left: 15%;
+
+ }
+
+  .citation p {
+ 	font-size: 18px;
+ }
+
+    .citation {
+   	padding: 45px;
+   }
+
+     h2 {
+  	font-size: 23px;
+  	padding-bottom: 0;
+  	padding-top: 40px;
+  }
+
+  .forma_text {
+    font-size: 29px;
+}
+
+.forma_text_2 {
+
+    font-size: 20px;
+    margin-top: 10px;
+   
+}
+
+.button {
+	width: 180px;
+}
+
+.forma {
+	min-height: 300px;
+}
+
+footer p {
+    font-size: 13px;
+ 
+}
+
+footer .phone_footer {
+    font-size: 13px;
+}
+
+footer .icon_footer .fa-instagram {
+    font-size: 14px;
+}
+
+footer .icon_footer .fa-vk {
+    font-size: 18px;
+}
+
+.footer_bear {
+	 margin-top: -30px;
+}
+
+footer .contacts {
+    padding-top: 0;
+}
+
+footer .copyright {
+    font-size: 9px;
+    padding-top: 4px;
+}
+footer  {
+	min-height: 200px;
+}
+
+.timetable_clearfix a  {
+
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+.logo_top {
+	margin-left: 12%;
+
+ }
+
+   .citation {
+   	padding: 35px;
+   }
+
+     .citation p {
+ 	font-size: 18px;
+ }
+
+ .courses .cours {
+ 	margin-left: -20px;
+ }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

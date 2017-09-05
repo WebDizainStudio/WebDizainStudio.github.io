@@ -1,0 +1,24 @@
+.contacts_page {
+	margin-bottom: 150px;
+}
+
+.contacts_text {
+	padding-top: 10px;
+	padding-left: 10%;
+	color: #523d32;
+	font-weight: 600;
+	font-size: 18px;
+
+	
+}
+
+.contacts_text p {
+	line-height: 2;
+}
+
+
+.contacts_page .fa_contacts {
+	color: #523d32;
+	padding: 0;
+	margin: 0;
+}

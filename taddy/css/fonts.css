@@ -1,0 +1,37 @@
+
+@font-face {
+    font-family: 'Blogger Sans';
+    src: url('../fonts/blogersans/Bloggersans.woff2') format('woff2'), 
+    url('../fonts/blogersans/Bloggersans.woff') format('woff'),
+     url('../fonts/blogersans/Bloggersans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: "Blogger Sans Bold";
+  src: url("../fonts/Blogger Sans Bold/bloggersans-bold.woff") format("woff"), 
+  url("../fonts/Blogger Sans Bold/bloggersans-bold.woff2") format("woff2"),  
+  url("../fonts/Blogger Sans Bold/BloggerSans-Bold.ttf") format("truetype"); 
+}
+
+@font-face {
+  font-family: "Blogger Sans Medium";
+   src: url("../fonts/Blogger Sans Medium/Blogger_Sans-Medium.otf") format("opentype"); 
+}
+
+@font-face {
+  font-family: "Sensei-Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Sensei-Medium/Sensei-Medium.otf") format("opentype"); 
+}
+
+@font-face {
+  font-family: "IntroHeadR-Base";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/IntroHeadR-Base.otf") format("opentype"); 
+}
+
+

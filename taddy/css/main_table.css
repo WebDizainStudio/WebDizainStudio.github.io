@@ -1,0 +1,221 @@
+.table {
+    margin-bottom: 150px;
+}
+
+table {
+    border: 2px solid #fff;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 18px;
+  
+}
+
+tr, th {
+    background-color: #e7e7e8;
+    border: 2px solid #fff;
+    border-radius: 7px;
+    width: 12.5%;
+    height: 90px; 
+    color: #231f20;
+    font-weight: 400;
+  
+}
+
+table .day th {
+    height: 50px;
+     vertical-align: middle;
+}
+
+table .lesson {
+    background-color: #d1d2d4;
+    vertical-align: middle;
+}
+
+table .time {
+   vertical-align: middle;
+}
+
+table .lesson_text {
+    font-size: 15px;
+    color: #fff;
+    text-transform: none;
+    padding: 15px;
+    vertical-align: middle;
+    font-weight: 400;
+    line-height: 1.3;
+
+}
+
+table .lesson_text a {
+    color: #fff;
+    cursor: pointer;
+}
+
+table .lesson_text .time_text {
+    padding-top: 15px;
+
+}
+
+table .pinck {
+    background-color: #ed184a;
+}
+
+table .pinck:hover {
+    background-color: #dd0e3f;
+}
+
+
+table .green {
+    background-color: #02a390;
+}
+
+table .green:hover {
+    background-color: #079383;
+}
+
+table .blue {
+    background-color: #00aaba;
+}
+
+table .blue:hover  {
+    background-color: #0697a5;
+}
+
+
+table .lightgreen {
+    background-color: #9daa1d;
+}
+
+table .lightgreen:hover  {
+    background-color: #949e30;
+}
+
+table .purple {
+    background-color: #666ab0;
+}
+
+table .purple:hover {
+    background-color: #5a5ea0;
+}
+
+table .orange {
+    background-color: #f26525;
+}
+
+table .orange:hover {
+    background-color: #db5c22;
+}
+
+table .brown {
+    background-color: #523d32;
+}
+
+table .brown:hover {
+    background-color: #403027;
+}
+
+table .violet {
+    background-color: #c5387f;
+}
+
+table .violet:hover {
+    background-color: #b13272;
+}
+
+table .dark_green {
+    background-color: #359239;
+}
+
+table .dark_green:hover {
+    background-color: #2c732f;
+}
+
+table .turquoise {
+    background-color: #02a390;
+}
+
+table .turquoise:hover {
+    background-color: #058979;
+}
+
+table .light_brown {
+    background-color: #c18042;
+}
+
+table .light_brown:hover {
+    background-color: #a36c37;
+}
+
+table .beige {
+    background-color: #ebc5a2;
+}
+
+table .beige:hover {
+    background-color: #d3b192;
+}
+
+table .azure {
+    background-color: #3cb1e5;
+}
+
+table .azure:hover {
+    background-color: #319ac8;
+}
+.wrapper_tab {
+    cursor: pointer;
+}
+
+.wrapper_tab .active {
+    border-bottom: 3px solid #ed184a;
+}
+
+.tab  {
+    border-bottom: 2px solid #d1d2d4;
+    padding-bottom: 7px;
+    margin-left: 20px;
+}
+
+.tab_item {
+    display: none;
+}
+
+.tab_item:first-child {
+    display: block;
+}
+
+.table_adaptiv {
+    padding-top: 20px;
+}
+
+.timetable_clearfix {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.value {
+    float: right;
+}
+
+.table_adaptiv h4 {
+padding-bottom: 10px;
+padding-top: 10px;
+text-transform: uppercase;
+font-size: 18px;
+}
+
+.table_adaptiv hr {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.table_adaptiv a {
+    text-decoration: none;
+    color: #523d32;
+}
+
+.table_adaptiv a:hover {
+    color: #7a5b4b;
+   }
