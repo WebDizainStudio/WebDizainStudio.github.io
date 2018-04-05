@@ -1,0 +1,27 @@
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+			 url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+    font-family: 'a_futuricaltthin';
+    src: url('../fonts/a_FuturicaLt/ofont.ru_a_futuricalt-webfont.woff') format('woff'),
+         url('../fonts/a_FuturicaLt/ofont.ru_a_futuricalt-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "futurical";
+    src: url('../fonts/6874.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
