@@ -1,0 +1,115 @@
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+			 url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+    font-family: 'a_futuricaltthin';
+    src: url('../fonts/a_FuturicaLt/ofont.ru_a_futuricalt-webfont.woff') format('woff'),
+         url('../fonts/a_FuturicaLt/ofont.ru_a_futuricalt-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "Copperplate Gothic";
+    src: url('../fonts/Copperplate Gothic.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "OPTIDiannaScriptBoldAgency";
+    src: url('../fonts/OPTIDiannaScriptBoldAgency.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+} 
+
+@font-face {
+    font-family: "Constantia";
+    src: url('../fonts/constan.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+} 
+
+@font-face {
+    font-family: "Book Antiqua Regular";
+    src: url('../fonts/BKANT.TTF') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "Book Antiqua Italic";
+    src: url('../fonts/ANTQUAI.TTF') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+font-family: 'Myriad Pro Regular';
+src: url('../fonts/MyriadPro-Regular/MyriadPro-Regular.eot');
+src: url('../fonts/MyriadPro-Regular/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+url('../fonts/MyriadPro-Regular/MyriadPro-Regular.woff') format('woff'),
+url('../fonts/MyriadPro-Regular/MyriadPro-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Optima Bold';
+src: url('Optima-Bold.eot');
+src: url('../fonts/Optima bold/Optima-Bold.eot?#iefix') format('embedded-opentype'),
+url('../fonts/Optima bold/Optima-Bold.woff') format('woff'),
+url('../fonts/Optima bold/Optima-Bold.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'Myriad Pro Light';
+src: url('MyriadPro-Light.eot');
+src: url('../fonts/MyriadPro-Light/MyriadPro-Light.eot?#iefix') format('embedded-opentype'),
+url('../fonts/MyriadPro-Light/MyriadPro-Light.woff') format('woff'),
+url('../fonts/MyriadPro-Light/MyriadPro-Light.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'CenturyGothicRegular';
+src: url('CenturyGothicRegular.eot');
+src: url('../fonts/CenturyGothicRegular/CenturyGothicRegular.eot') format('embedded-opentype'),
+url('../fonts/CenturyGothicRegular/CenturyGothicRegular.woff') format('woff'),
+url('../fonts/CenturyGothicRegular/CenturyGothicRegular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+    font-family: "Georgia";
+    src: url('../fonts/Georgia.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+} 
+
+@font-face {
+font-family: 'Century Gothic Regular';
+src: url('CenturyGothic.eot');
+src: url('../fonts/Century Gothic Regular/CenturyGothic.eot?#iefix') format('embedded-opentype'),
+url('../fonts/Century Gothic Regular/CenturyGothic.woff') format('woff'),
+url('../fonts/Century Gothic Regular/CenturyGothic.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}

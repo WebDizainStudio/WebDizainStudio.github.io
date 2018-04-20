@@ -1,0 +1,458 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+.top_menu .line_menu_left img, .top_menu .line_menu_right img{
+width: 260px;
+}
+.menu_right {
+	margin-left: -210px;
+}
+.top_menu .line_menu_right img {
+	margin-left: -5px;
+}
+
+.menu_left {
+	margin-right: -35px;
+}
+.top_menu .line_menu_left img {
+	margin-left: 113px;
+}
+menu ul li a {
+	font-size: 19px;
+}
+
+.img_logo img {
+	margin-top: 10px;
+	width: 150px;
+	margin-left: -20px;
+}
+
+.comments .review_one {
+padding: 15px 30px;
+}
+
+body .reviwes .owl-nav .owl-prev {
+	left: -10px;
+}
+
+body .reviwes .owl-nav .owl-next {
+	right: -10px;
+}
+
+body .reviwes .owl-nav [class*="owl-"] {
+	font-size: 3em;
+}
+
+.footer .contacts_footer {
+	margin-left: -140px;
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+menu ul li {
+	margin-left: 38px;
+}
+
+menu ul li a {
+	font-size: 18px;
+}
+.menu_left {
+	margin-left: -107px;
+}
+.top_menu .line_menu_left img {
+	margin-left: 9px;
+}
+.img_logo img {
+	margin-left: -35px;
+}
+.menu_right {
+	margin-left: -70px;
+}
+.top_menu .line_menu_right img {
+	margin-left: 14px;
+}
+
+body h2 {
+	font-size: 30px;
+}
+
+.about .img_under_text img {
+	width: 66px;
+}
+
+.about p {
+	font-size: 20px;
+}
+
+.product h3 {
+	font-size: 25px;
+}
+
+.product img {
+	width: 45%;
+}
+
+.product .description {
+	padding: 0;
+	margin-top: 7px;
+
+} 
+.product .description p{
+	font-size: 16px;	
+}
+
+body .reviwes .owl-nav [class*="owl-"] {
+	margin-top: -180px;
+}
+
+body .adaptiv_comments {
+	padding-top: 50px;
+}
+
+.comments h3 {
+	font-size: 30px;
+}
+
+.footer h4 {
+	font-size: 16px;
+}
+
+.footer .foto img {
+	margin-left: -30px;
+	width: 60%;
+}
+
+.footer .contacts_footer img {
+	width: 52px;
+}
+
+.footer h4 {
+	font-size: 15px;
+}
+
+.footer p {
+	font-size: 15px;
+}
+
+.contacts_forma {
+	margin-left: -100px;
+}
+
+.footer .contacts_footer {
+	margin-left: -125px;
+}
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+.menu_left, .menu_right, .top_menu .line_menu_left img, .top_menu .line_menu_right img {
+display: none;
+}
+
+.img_logo img {
+	width: 150px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}	
+
+.product img {
+	width: 22%;
+}
+.about p {
+	font-size: 19px;
+}
+
+.product .adaptiv {
+	padding-top: 25px;
+}
+
+.footer .foto img {
+	width: 16%;
+}
+
+.footer .contacts_footer {
+	margin-left: 115px;
+	margin-top: -76px;
+}
+
+.contacts_forma {
+	margin-left: 380px;
+	margin-top: -171px;
+}
+
+.footer .wraper_email::before {
+	top: -19px;
+	-webkit-background-size: 48%;
+	background-size: 48%;
+}
+
+.footer .wraper_telegram::before {
+	top: 16px;
+		-webkit-background-size: 48%;
+	background-size: 48%;
+}
+
+.footer .wraper_phone::before {
+	top: -53px;
+		-webkit-background-size: 48%;
+	background-size: 48%;
+}
+.forma {
+	width: 163px;
+}
+}
+
+@media only screen and (max-width : 700px) { 
+
+.contacts_forma {
+	margin-left: 0;
+	margin-top: 0;
+	text-align: center;
+	}
+
+.left_contacts {
+		text-align: center;
+	}
+
+.img_vk {
+	float: none;
+}
+
+.left_contacts_foto {
+	text-align: center;
+}
+
+.footer .foto img {
+	width: 20%;
+}
+
+.footer .contacts_footer {
+	margin-left: 0;
+	margin-top: 10px;
+}
+.forma {
+	width: 300px;
+}
+
+.footer .wraper_phone::before {
+	top: 33px;
+	margin-left: -100px;
+}
+
+.footer .wraper_telegram::before {
+	top: 67px;
+	margin-left: -116px;
+}
+
+.footer .wraper_email::before {
+	top: 100px;
+	margin-left: -103px;
+}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 600px) {
+.about p {
+	font-size: 18px;
+}
+
+.product img {
+	width: 30%;
+}
+
+.about .img_under_text::before {
+	width: 120px;
+	margin-left: -142px;
+}
+.about .img_under_text::after {
+	width: 120px;
+
+}
+
+body h2 {
+	font-size: 28px;
+}
+.about .img_under_text img {
+	width: 63px;
+}
+.about p span {
+	font-size: 17px;
+}
+
+.product h3 {
+	font-size: 24px;
+}
+body .owl-theme .owl-nav [class*="owl-"] {
+	font-size: 3em;
+}
+
+body .owl-theme .owl-nav .owl-next {
+	right: -5px;
+}
+
+body .owl-theme .owl-nav .owl-prev {
+	left: -5px;
+}
+
+body .owl-theme .owl-dots .owl-dot span{ 
+	width: 10px;
+	height: 10px;
+}
+
+
+}
+
+@media only screen and (max-width : 400px) { 
+
+	.about .text_about {
+		padding: 20px;
+	}
+	.about .img_under_text::before {
+	margin-left: -94px;
+	width: 80px;
+}
+
+.about .img_under_text::after {
+	width: 80px;
+}
+.product {
+	padding-top: 20px;
+}
+.product img {
+	width: 35%;
+	}
+
+.comments .review_one {
+	padding: 6px 10px;
+}
+
+body .reviwes .owl-nav .owl-prev {
+	left: -25px;
+}
+
+body .reviwes .owl-nav .owl-next {
+	right: -25px;
+}
+
+.comments .review_one {
+	font-size: 17px;		
+}
+body .reviwes .owl-nav [class*="owl-"] {
+ font-size:2em;	
+}
+.comments .review_one {
+padding:2px;	
+}
+
+.review .review-img {
+	padding-top:5px;	
+}
+
+.comments h3 {
+	font-size:26px;
+	padding-top:0px;
+}
+body .adaptiv_comments {
+	padding-top:30px;
+}
+}
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+.top_header h1  {
+	font-size: 22px;
+	margin-bottom: 4px;
+}
+.top_header h1 span {
+	font-size: 41px;
+}
+
+.about .text_about {
+	padding: 15px 12px;
+}
+
+.about p span {
+	font-size: 15px;
+}
+
+.about p {
+	font-size: 17px;
+}
+
+body h2 {
+	font-size: 26px;
+}
+
+.about .img_under_text img {
+	width: 55px;
+}
+
+.about .text_top_about {
+	padding-bottom: 40px;
+}
+
+.product h3 {
+	font-size: 22px;
+}
+
+.product .description p {
+	font-size: 15px;
+}
+
+}
+
+@media only screen and (max-width : 320px) {
+.about .text_about {
+	padding: 15px 3px;
+ }
+
+ .about .img_under_text::before {
+ 	margin-left: -80px;
+ 	width: 69px;
+ }
+
+ .about .img_under_text::after {
+	width: 69px;
+}
+
+.product img {
+	width: 45%;
+}
+
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

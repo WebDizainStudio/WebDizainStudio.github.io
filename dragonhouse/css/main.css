@@ -1,0 +1,557 @@
+body {
+	font-family: "Myriad Pro Regular", "Arial", "sans-serif";
+	color: #000;
+}
+
+/*Первый блок - главный*/
+.top_header {
+	height: 84px;
+	background-color: rgba(18, 18, 18, 0.93);
+	padding: 5px;
+}
+
+.top_header h1 {
+	text-align: center;
+	color: #fff;
+	font-family: "Copperplate Gothic", "Arial", "sans-serif";
+	font-size: 28px;
+	margin-top: -7px;
+	text-transform: uppercase;
+	transform: scaleY(1.4);	
+}
+
+.top_header h1 span {
+	font-size: 45px;
+	vertical-align: sub;
+	padding: 3px;
+}
+
+.top_header h1 .house {
+	padding: 2px;
+}
+
+.top_header p {
+	text-align: center;
+	color: #fff;
+}
+
+.top_header .top_p {
+	font-family: "OPTIDiannaScriptBoldAgency", "Arial", "sans-serif";
+	padding-top: 3px;
+}
+
+.top_header .top_p:before {
+    background-image: url("../img/arrow.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: 13%;
+    background-size: 13%;
+    content: "";
+    height: 15px;
+    margin-left: 104px;
+    position: absolute;
+    top: 4px;
+    width: 50px;
+}
+
+.top_header .botton_p {
+	text-transform: uppercase;
+	font-family: "Optima Bold", "Arial", "sans-serif";
+	margin-top: -12px;
+	font-size: 12px;
+}
+
+.top_header .botton_p:after { 
+display: inline-block;
+ margin: 0 0 4px 4px;
+ height: 2px;
+ content: " ";
+ text-shadow: none;
+ background-color: #fff;
+ width: 17px;
+}
+
+.top_header .botton_p:before { 
+display: inline-block;
+ margin: 0 4px 4px 0;
+ height: 2px;
+ content: " ";
+ text-shadow: none;
+ background-color: #fff;
+ width: 17px; 
+}
+
+/*Меню*/
+body menu ul {
+	list-style-type: none;
+	margin-top: 40px;
+	text-align: center;
+	padding-left: 40px;
+}
+
+menu ul li {
+	display: inline-block;
+	margin-left: 45px;
+}
+
+menu ul li a {
+	font-size: 21px;
+	color: #000;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+menu ul li a:hover {
+	text-decoration: none;
+	color: #464646;
+}
+
+.top_menu .line_menu_left img, .top_menu .line_menu_right img{
+width: 265px;
+margin-top: 7px;
+}
+
+.top_menu .line_menu_left img{ 
+margin-left: 202px;
+}
+
+.top_menu .line_menu_right img{ 
+margin-left: 0px;
+}
+
+.img_logo {
+	text-align: center;	
+}
+
+.img_logo img {
+	width: 160px;
+	margin-top: 5px;
+}
+
+.menu_left {
+	margin-right: -130px;
+}
+
+.menu_right {
+	margin-left: -270px;
+}
+
+/*Слайдер*/
+
+.top_slider {
+	margin-top: 5px;
+}
+
+.top_slider img {
+ height: 71vh;
+ width: 100%;
+ border: 2px solid #000;
+}
+
+body .owl-theme .owl-nav [class*="owl-"] {
+	color: rgba(0, 0, 0, 0.1);
+	background: none;
+	font-size: 4em;
+	margin-top: -100px;
+	position: absolute;
+	top: 65%;
+	z-index: 2;
+	padding: 0 10px;
+}
+
+body .owl-theme .owl-nav [class*="owl-"]:hover {
+	background: none;
+	color: #000;
+}
+
+body .owl-theme .owl-nav .owl-prev {
+	left: 10px;
+}
+body .owl-theme .owl-nav .owl-next {
+	right: 10px;
+}
+
+
+body .owl-theme .owl-dots {
+	width: 100%;
+	text-align: center;
+	margin-top: 60px;
+	margin-top: -64px;
+	position: relative;
+	pointer-events: none;
+    z-index: 9999;
+}
+
+body .owl-theme .owl-dots .owl-dot span{
+	width: 15px;
+	height: 15px;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 10em;
+	margin-left: 7px;
+	margin-top: 13px;
+	pointer-events: auto;
+}
+
+body .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: rgba(255, 255, 255,0.5);
+}
+
+/*О компании*/
+
+.about {
+	background-image: url(../img/fon_section_about.jpg);
+	background-size: 100% 100%;
+	padding-bottom: 45px;
+}
+
+body h2 {
+	text-align: center;
+	font-size: 33px;
+	padding-top: 42px;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	color: #000;
+}
+
+.about .img_under_text {
+text-align: center;
+}
+
+.about .img_under_text img {
+	width: 72px;
+}
+
+.about .img_under_text:before {
+    content: "";
+    height: 2px;
+    margin-left: -185px;
+    position: absolute;
+    border: 1px solid #000;
+	width: 162px;
+	transform: rotate(180deg);
+	margin-top: 27px;
+}
+
+.about .img_under_text:after {
+    content: "";
+    height: 2px;
+    margin-left: 20px;
+    position: absolute;
+    border: 1px solid #000;
+	width: 162px;
+	transform: rotate(180deg);
+	margin-top: 27px;	
+}
+ 
+ .about .text_about {
+  padding: 40px;
+ }
+
+.about p {
+	text-align: center;
+	font-family: "Georgia", "Arial", "sans-serif";
+	font-size: 22px;
+	margin-bottom: -10px;
+	line-height: 1.7;
+	padding-left: 5px;
+	color: #000;	
+}
+
+.about p span {
+	font-family: "Copperplate Gothic", "Arial", "sans-serif";
+	font-size: 18px;
+	text-transform: uppercase;
+	display: inline-block;
+	transform: scaleY(1.2);
+}
+
+.about .text_top_about {
+	padding-bottom: 48px;
+}
+
+/*Продукция*/
+
+.product {
+	text-align: center;
+	padding-top: 40px;
+}
+
+.product img {
+	width: 40%;
+}
+
+.about_product {
+padding-top: 16px;	
+}
+
+.product h3 {
+	color: #ff0000;
+	text-transform: uppercase;
+	font-family: "Constantia", "Arial", "sans-serif";
+	font-size: 33px;
+	padding-top: 5px;
+}
+.product p {
+	font-family: "CenturyGothicRegular", "Arial", "sans-serif";
+	font-size: 17px;
+	line-height: 1.5;
+	color: #000;
+}
+
+.description {
+	padding: 24px;
+}
+
+/*Комментарии*/
+
+
+.comments h3 {
+	font-family: "Myriad Pro Light", "Arial", "sans-serif";
+	text-align: center;
+	font-size: 33px;
+	padding-top: 20px;
+	padding-bottom: 11px;
+}
+
+.comments_left , .comments_right {
+	text-align: center;
+}
+
+.comments .review_one {
+	text-align: center;
+	padding: 20px 60px;
+	font-family: "Book Antiqua Italic", "Arial", "sans-serif";
+	font-size: 18px;
+}
+
+.review .review-img {
+width: 110px;
+margin: auto;
+padding-top: 20px;
+}
+
+.review .review-img img {
+	width: 100%;
+}
+
+.review-number, .review-img, .review-botton, .review-sity {
+	text-align: center;
+	padding-bottom: 10px;
+	font-family: "Book Antiqua Regular", "Arial", "sans-serif";
+}
+
+body .reviwes .owl-nav [class*="owl-"] {
+	color: #494949;
+	background: none;
+	font-size: 4em;
+	margin-top: -220px;
+	position: absolute;
+	top: 65%;
+	z-index: 2;
+	padding: 0 10px;
+}
+
+body .reviwes .owl-nav [class*="owl-"]:hover {
+	background: none;
+	color: #000;
+
+	}
+
+body .reviwes .owl-nav .owl-prev {
+	left: 10px;
+}
+body .reviwes .owl-nav .owl-next {
+	right: 10px;
+}
+
+.video {
+	text-align: center;
+	margin-bottom: 250px;
+	margin-top: 25px;
+}
+
+
+
+/*Подвал*/
+
+.footer {
+	background-color: #1e1e1e;
+	font-family: 'Century Gothic Regular';
+	color: #fff;
+	padding-bottom: 10px;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	z-index: 111;
+}
+
+.footer h4 {
+color: #fff;
+font-size: 18px;
+padding-top: 10px;
+
+}
+
+.footer img {
+	width: 160px;
+	padding-top: 10px;
+	padding-left: 30px;
+}
+
+.footer .contacts_footer {
+	margin-top: 50px;
+	margin-left: -193px;
+
+}
+
+.footer .wraper_phone:before {
+   background-image: url("../img/PhoneAlt.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: 55%;
+    background-size: 55%;
+    content: "";
+    height: 35px;
+    margin-left: -40px;
+    position: absolute;
+    top: 78px;
+    width: 50px;
+}
+
+.footer .wraper_telegram:before {
+   background-image: url("../img/Telegram.svg.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: 55%;
+    background-size: 55%;
+    content: "";
+    height: 35px;
+    margin-left: -40px;
+    position: absolute;
+    top: 148px;
+    width: 50px;
+}
+
+.footer .wraper_email:before {
+   background-image: url("../img/email.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: 55%;
+    background-size: 55%;
+    content: "";
+    height: 35px;
+    margin-left: -40px;
+    position: absolute;
+    top: 113px;
+    width: 50px;
+}
+
+.footer .contacts_footer img{
+	width: 60px;
+	display: inline-block;
+}
+.footer .contacts_footer p {
+	padding-bottom: 10px;
+}
+
+.img_phone img {
+	margin-top: -14px;
+	margin-right: 10px;
+}
+
+.wraper_phone {
+	margin-left: 35px;
+	margin-bottom: 5px;
+}
+.wraper_telegram {
+margin-left: 35px;
+margin-bottom: 5px;
+}
+
+.wraper_email {
+margin-left: 35px;	
+
+}
+
+.forma {
+	width: 300px;
+}
+
+.contacts_forma {
+	padding-top: 10px;
+	margin-left: -210px;
+}
+
+input {
+	color: #000;
+	border: 1px solid #000;
+	padding: 5px;
+	margin-top: 15px;
+}
+
+.img_vk {
+margin-left: -31px;	
+display: inline-block;
+float: left;
+
+}
+
+.img_vk a img{
+margin-top: 10px;
+}
+
+.img_vk img {
+	width: 60px;
+	margin-top: 10px;
+}
+.p_vk {
+display: inline-block;	
+margin-top: 25px;
+margin-left: 5px;
+}
+
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 20px;
+    width: auto;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.review a {
+	color: #000;
+	font-family: "Book Antiqua Italic","Arial","sans-serif";
+
+}
+
+.other-comments {
+	border: 1px solid #000;
+	padding: 3px;
+	width: 150px;
+	text-align: center;
+	margin: auto ;
+}
+
+
+.block, .block-two {
+  height: 180px;
+  overflow: hidden;
+  position: relative;
+  background: #ffffff;
+}
+.block.opener, .block-two.opener{
+  height: auto;
+}
+.block:after, .block-two:after {
+  content: "";
+  width: 100%;
+  left: 0;
+  position: absolute;
+  height: 50px;
+  bottom: 0;
+  background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+  background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+.block.opener:after, .block-two.opener:after {
+  opacity: 0;
+}
